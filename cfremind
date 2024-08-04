@@ -1,0 +1,1 @@
+node ~/Documents/cf-contest-reminder/index.js "$@"

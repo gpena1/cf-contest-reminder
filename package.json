@@ -1,0 +1,16 @@
+{
+  "name": "cf-contest-reminder",
+  "version": "1.0.0",
+  "description": "A CLI tool which will remind you about upcoming Codeforces contests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "author": "Gian Peña",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
