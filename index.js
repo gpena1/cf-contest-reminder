@@ -63,7 +63,7 @@ if(args[0] == 'list') {
             const relative = Math.abs(c.relativeTimeSeconds);
             // console.log(name.length);
             console.log(
-                `${(name+':').padStart(longest+1, ' ')} Happening at ${month_map[date.getMonth()]} ${date.getDate()}${ending(date.getDate())}, ${date.getFullYear()} (${convert_relative(relative)} from now)`
+                `${(name+` (${c.id}):`).padStart(longest+1, ' ')} Happening at ${month_map[date.getMonth()]} ${date.getDate()}${ending(date.getDate())}, ${date.getFullYear()} (${convert_relative(relative)} from now)`
             );
         });
     })
